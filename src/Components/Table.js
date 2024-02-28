@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
 
 function Table() {
   return (
-    <div>
+    <ContainerTable>
+        Name <br/>
+      <input placeholder='add a point' />
       
-    </div>
+      
+    </ContainerTable>
   )
 }
 
-export default Table
+export default Table;
+
+const ContainerTable = styled.div``;
